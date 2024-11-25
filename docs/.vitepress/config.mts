@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-import { themeConfig } from "./theme/themeConfig.mjs";
+import { themeConfig } from "./themeConfig/themeConfig.mjs";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
