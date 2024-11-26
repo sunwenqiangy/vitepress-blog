@@ -16,6 +16,7 @@ export const logo = {
 // outline
 export const outline = {
 	level: "deep", // 右侧大纲标题层级
+	// level: [2, 6], // 右侧大纲标题层级
 	label: "目录", // 右侧大纲标题文本配置
 }
 
