@@ -12,7 +12,7 @@ export default defineConfig({
       "link",
       {
         rel: "icon",
-        href: "/logo/favicon.png",
+        href: "/vitepress-blog/logo/favicon.png",
       },
     ],
   ],
