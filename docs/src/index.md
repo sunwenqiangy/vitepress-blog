@@ -3,8 +3,8 @@ layout: home
 
 hero:
   name: "上冬辰_技术博客"
-  text: "Web前端开发，记录工作学习中的一些问题以及获得的新技能"
-  # tagline: Coding comes from love, so life is wonderful.
+  text: "Web前端开发"
+  tagline: 记录工作学习中的一些问题以及获得的新技能
   image:
     src: /logo/index.svg
     alt: VitePress
@@ -12,6 +12,7 @@ hero:
     - theme: brand
       text: 博客
       link: https://blog.csdn.net/qq_41782551
+      # target: _blank
     - theme: alt
       text: 关于
       link: /about.md

@@ -2,7 +2,7 @@
  * @author 'Dancy'
  * @description '侧边栏配置项'
  */
-
+import { set_sidebar } from "../../utils/auto-gen-sidebar.mjs";
 import { Sidebar } from "./type/Sidebar.mts"
 // html
 // import HTML from '../../src/guide/html/sidebar.mts'
@@ -27,9 +27,11 @@ import Demo from '../../src/guide/demo/sidebar.mts'
 
 export const sidebar: Sidebar = {
 	// "/guide/html/": HTML,
-	"/guide/css/": CSS,
+	"/guide/css/": set_sidebar("/css"),
+	// "/guide/css/": CSS,
 	// "/guide/javascript/": javaScript,
-	"/guide/vue/": Vue,
+	"/guide/vue/": set_sidebar("/vue"),
+	// "/guide/vue/": Vue,
 	// "/guide/vue-principle/": VuePrinciple,
 	// "/guide/react/": React,
 	// "/guide/electron/": Electron,
