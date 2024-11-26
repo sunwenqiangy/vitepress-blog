@@ -21,7 +21,7 @@ export default defineConfig({
   lang: "zh-CN",
 
   // 站点将部署到的 base URL
-  base: "/",
+  base: "/vitepress-blog/",
 
   // 删除 .html 后缀
   cleanUrls: true,
